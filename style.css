@@ -12,7 +12,7 @@
     justify-content: space-between;
   }
 
-  img{ 
+  .logo { 
     width: 5%;
     padding: 10px;
   }
@@ -22,6 +22,27 @@
 
   }
 
-  .game-container{
+  #game-container{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+  }
+
+  .game{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 40%;
+      padding: 10px;
+  }
+
+  .game h1{
+    background-color: gray;
+    width: 100%;
+  }
+
+  .game img{
+    width: 100%;
+    background-color: lightgray;
   }
