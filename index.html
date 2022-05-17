@@ -8,8 +8,27 @@
   <title>Missing Piece Games</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+
+
+
   <img id="logo" src="Logo.png" alt="missing piece">
+
+  <div class="dropdown">
+    <button class="click"> <img src="Hamburger.png" height="40" width="40" /> </button>
+    <div class="games">
+      <button class="links"> game 1</button>
+      <button class="links"> game 2</button>
+      <button class="links"> game 3</button>
+      <button class="links"> game 4</button>
+    </div>
+  </div>
+
+
+
+
   <div id="game-container">
     <div class="game">
       <h1>Game Name</h1>
@@ -28,5 +47,28 @@
       <img src="crossword.png" alt="">
     </div>
   </div>
+
+
+
+
+
+
+  <script>
+    let click = document.querySelector('click');
+    let games = document.querySelector('.games');
+    click.addEventListener("click", () => {
+
+      games.classGames.toggle('newgames');
+    });
+
+  </script>
+
+
+
+
+
+
+
 </body>
+
 </html>

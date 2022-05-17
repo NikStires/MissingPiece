@@ -1,48 +1,71 @@
-*{
+* {
   padding: 0;
   margin: 0;
 }
 
-  body {
-    font-size: 14px;
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-  }
+body {
+  font-size: 14px;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  .logo { 
-    width: 5%;
-    padding: 10px;
-  }
+.logo {
+  width: 5%;
+  padding: 10px;
+}
 
-  title{
-    color:rgba(95,242,27,1);
+title {
+  color: rgba(95, 242, 27, 1);
 
-  }
+}
 
-  #game-container{
-    width: 40%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
+#game-container {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
-  .game{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 40%;
-      padding: 10px;
-  }
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  padding: 10px;
+}
 
-  .game h1{
-    background-color: gray;
-    width: 100%;
-  }
+.game h1 {
+  background-color: gray;
+  width: 100%;
+}
 
-  .game img{
-    width: 100%;
-    background-color: lightgray;
-  }
+.game img {
+  width: 100%;
+  background-color: lightgray;
+}
+
+
+
+.dropdown {
+  position: relative;
+}
+
+.click, .links {
+  padding: 12px;
+
+}
+
+.games {
+  position: absolute;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: 0.3s;
+
+}
+
+.newgames {
+  transform: scaleY(1);
+}
