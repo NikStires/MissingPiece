@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Missing Piece Games</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<nav>
+  <div class="dropdown">
+    <button class="click"> <img src="Hamburger.png" height="40" width="40" /> </button>
+    <div class="list">
+      <button class="links"> game 1</button>
+      <button class="links"> game 2</button>
+      <button class="links"> game 3</button>
+      <button class="links"> game 4</button>
+    </div>
+  </div>
+  <img id="logo" src="Logo.png" alt="missing piece">
+</nav>
+<body>
+
+    
+    <div id="game-box">
+        <h1>Game Name</h1>
+        <div class="game-screen">
+            <img src="Math Game.png" alt="">
+        </div>
+    </div>
+
+ 
+
+
+
+
+
+  <footer>
+<p><a href ="about.html"> About Us </a> </p>
+  </footer>
+
+
+
+  <script>
+    let click = document.querySelector('.click');
+    let list = document.querySelector('.list');
+    click.addEventListener("click", () => {
+      list.classList.toggle('newlist');
+    });
+
+
+
+
+  </script>
+
+
+
+
+
+
+
+</body>
+
+</html>
+
+
