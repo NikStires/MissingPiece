@@ -70,3 +70,11 @@ title {
 .newlist {
   transform: scaleY(1);
 }
+p {
+  font-size: 17px;
+  text-align: left;
+  margin: 100px;
+  margin-left: 250px;
+  margin-right: 250px;
+
+}

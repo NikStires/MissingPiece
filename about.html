@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Missing Piece Games</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+
+    <img id="logo" src="Logo.png" alt="missing piece">
+
+    <div class="dropdown">
+        <button class="click"> <img src="Hamburger.png" height="40" width="40" /> </button>
+        <div class="list">
+            <button class="links"> game 1</button>
+            <button class="links"> game 2</button>
+            <button class="links"> game 3</button>
+            <button class="links"> game 4</button>
+        </div>
+    </div>
+
+    <p>
+        Missing Piece is a class group project created by Nik Stires, Connor Mackenzie, and Darren Jonany. Our goal was
+        and is to create a sleek site where you can play a few simple puzzle games. We really wanted to create the
+        opposite of what game sites we remembered, like CoolMathGames, were. The New York Times game page is a good
+        example of the kind of style that we were trying to achieve with this site.
+        While we definitely will not end up with a completely finished product with a diverse cast of games to pick
+        from, we hope that this site meets our initial goals of simplicity and ease-of-use.
+        If you would like to report a bug or provide feedback for the site, you can email us here: example@fillin.com or
+        join our discord here: <a href ="https://discord.gg/9JTGPC24">https://discord.gg/9JTGPC24 </a>
+
+
+    </p>
+
+
+    <footer>
+        <p><a href="about.html"> About Us </a> </p>
+    </footer>
+
+
+
+    <script>
+        let click = document.querySelector('.click');
+        let list = document.querySelector('.list');
+        click.addEventListener("click", () => {
+            list.classList.toggle('newlist');
+        });
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+</body>
+
+</html>
