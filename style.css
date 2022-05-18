@@ -1,10 +1,12 @@
+/* global */
 * {
   padding: 0;
   margin: 0;
 }
 
+/* navigation */
 nav {
-  width: 50%;
+  width: 53%;
   display: flex;
   justify-content: space-between;
   margin-right: auto;
@@ -12,13 +14,31 @@ nav {
 
 .dropdown {
   float: left;
+  position: sticky;
+}
+
+.click, .links {
+  padding: 12px;
+
+}
+
+.list {
+  position: absolute;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: 0.3s;
+
+}
+
+.newlist {
+  transform: scaleY(1);
 }
 
 .logo {
   width: 5%;
-  padding: 10px;
 }
 
+/* main content */
 body {
   font-size: 14px;
   height: 70vh;
@@ -59,33 +79,9 @@ title {
   background-color: lightgray;
 }
 
-
-
-.dropdown {
-  position: sticky;
-}
-
-
-.click, .links {
-  padding: 12px;
-
-}
-
-.list {
-  position: absolute;
-  transform: scaleY(0);
-  transform-origin: top;
-  transition: 0.3s;
-
-}
-
-.newlist {
-  transform: scaleY(1);
-}
 p {
   font-size: 17px;
   text-align: left;
- 
   margin-left: 250px;
   margin-right: 250px;
 }
