@@ -9,6 +9,17 @@ nav {
   justify-content: flex-start;
 }
 
+a:link {
+  text-decoration: none;
+  color: grey;
+}
+
+a:visited {
+  text-decoration: none;
+  color: grey;
+}
+
+
 .dropdown {
   float: left;
 }
@@ -81,11 +92,20 @@ title {
 .newlist {
   transform: scaleY(1);
 }
+
 p {
   font-size: 17px;
   text-align: left;
- 
+
   margin-left: 250px;
   margin-right: 250px;
 
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  color: grey;
+  text-decoration: none;
 }
