@@ -1,79 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Missing Piece Games</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Missing Piece Games</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-
-
-<nav>
-  <div class="dropdown">
-    <button class="click"> <img src="Hamburger.png"/> </button>
-    <ul class="list">
-      <li class="links">Math</li>
-      <li class="links">Sudoku</li>
-      <li class="links">Tic-Tac-Toe</li>
-      <li class="links">Crossword Puzzle</li>
-    </ul>
-  </div>
-</nav>
-<body>
-  <a href="index.html">
-    <img id="logo" src="Logo.png" alt="missing piece"/>
-  </a>
-  <div id="game-container">
-    <div class="game">
-      <a href="gamepage.html">Math</a>
-      <img src="Math Game.png" alt="">
+  <nav>
+    <div class="dropdown">
+      <button class="click"><img src="Hamburger.png" /></button>
+      <ul class="list">
+        <li class="links">Math</li>
+        <li class="links">Sudoku</li>
+        <li class="links">Tic-Tac-Toe</li>
+        <li class="links">Crossword Puzzle</li>
+      </ul>
     </div>
-    <div class="game">
-      <h1>Sudoku</h1>
-      <img src="Sudoku.png" alt="">
+  </nav>
+  <body>
+    <a href="index.html">
+      <img id="logo" src="Logo.png" alt="missing piece" />
+    </a>
+    <div id="game-container">
+      <div class="game">
+        <a href="gamepage.html">Math</a>
+        <img src="Math Game.png" alt="" />
+      </div>
+      <div class="game">
+        <h1>Sudoku</h1>
+        <img src="Sudoku.png" alt="" />
+      </div>
+      <div class="game">
+        <h1>Tic-Tac-Toe</h1>
+        <img src="TicTacToe.png" alt="" />
+      </div>
+      <div class="game">
+        <h1>Crossword Puzzle</h1>
+        <img src="crossword.png" alt="" />
+      </div>
     </div>
-    <div class="game">
-      <h1>Tic-Tac-Toe</h1>
-      <img src="TicTacToe.png" alt="">
-    </div>
-    <div class="game">
-      <h1>Crossword Puzzle</h1>
-      <img src="crossword.png" alt="">
-    </div>
-  </div>
 
+    <footer>
+      <a href="about.html"> About Us </a>
+      <br />
+      <a href="https://discord.gg/9JTGPC24"> Discord </a>
+    </footer>
 
-
-
-
-  <footer>
-    <a href="about.html"> About Us </a>
-    <br>
-    <a href="https://discord.gg/9JTGPC24"> Discord </a>
-</footer>
-
-
-
-  <script>
-    let click = document.querySelector('.click');
-    let list = document.querySelector('.list');
-    click.addEventListener("click", () => {
-      list.classList.toggle('newlist');
-    });
-
-
-
-
-  </script>
-
-
-
-
-
-
-
-</body>
-
+    <script>
+      let click = document.querySelector('.click');
+      let list = document.querySelector('.list');
+      click.addEventListener('click', () => {
+        list.classList.toggle('newlist');
+      });
+    </script>
+  </body>
 </html>

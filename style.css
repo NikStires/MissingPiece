@@ -6,7 +6,7 @@
 
 /*navigation*/
 nav {
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: flex-start;
 }
@@ -24,21 +24,27 @@ a:visited {
 .dropdown {
   float: left;
   position: sticky;
-  width: 100%;
+  width: 100vw;
 }
 
-.click, .links {
+.links {
+  list-style: none;
+}
+
+.click,
+.links {
   padding: 12px;
 }
 
-.links:hover{
+.links:hover {
   background-color: gray;
 }
 
 .list {
   position: absolute;
+  width: 32vw;
   transform: scaleX(0);
-  transform-origin: top;
+  transform-origin: left;
   transition: 0.5s;
   background-color: lightgrey;
 }
@@ -48,7 +54,7 @@ a:visited {
 }
 
 .logo {
-  width: 5%;
+  width: 5vw;
   padding: 10px;
 }
 
@@ -56,7 +62,7 @@ a:visited {
 body {
   font-size: 14px;
   height: 70vh;
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -65,11 +71,10 @@ body {
 
 title {
   color: rgba(95, 242, 27, 1);
-
 }
 
 #game-container {
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -79,17 +84,17 @@ title {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80%;
+  width: 80vw;
   padding: 10px;
 }
 
 .game a {
-    text-decoration: none;
-    width: 100%;
-    font-size: 25px;
-    color: black;
-    font-weight: bold;
-    background: gray;
+  text-decoration: none;
+  width: 100%;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  background: gray;
 }
 
 .game h1 {
@@ -108,7 +113,6 @@ p {
 
   margin-left: 50px;
   margin-right: 50px;
-
 }
 
 footer {
@@ -119,7 +123,7 @@ footer {
 }
 
 /* Game Page */
-.game-page{
+.game-page {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -127,71 +131,69 @@ footer {
   margin-right: 100px;
 }
 
-#game-box{
+#game-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: lightgray;
 }
 
-#game-box h1{
+#game-box h1 {
   text-align: center;
 }
 
-.game-screen{
+.game-screen {
   width: 100%;
 }
 
-.game-screen img{
+.game-screen img {
   display: flex;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
 
-.how-to-play{
+.how-to-play {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 30%;
 }
 
-.how-to-play p{
+.how-to-play p {
   width: 50%;
   margin-left: 1px;
   font-size: 10px;
 }
 
-
 /* media queries */
 @media only screen and (min-width: 992px) {
   body {
-    width: 100%;
+    width: 100vw;
   }
-  
+
   title {
     color: rgba(95, 242, 27, 1);
-  
   }
-  
+
   #game-container {
-    width: 40%;
+    width: 40vw;
   }
-  
+
   .game {
     width: 40%;
   }
-  
+
   .game h1 {
     background-color: gray;
     width: 100%;
   }
-  
+
   .game img {
     width: 100%;
     background-color: lightgray;
   }
-  
+
   p {
     font-size: 17px;
     text-align: left;
