@@ -50,15 +50,16 @@ title {
 
 
 .dropdown {
-  position: relative;
+  position: sticky;
 }
+
 
 .click, .links {
   padding: 12px;
 
 }
 
-.games {
+.list {
   position: absolute;
   transform: scaleY(0);
   transform-origin: top;
@@ -66,6 +67,6 @@ title {
 
 }
 
-.newgames {
+.newlist {
   transform: scaleY(1);
 }

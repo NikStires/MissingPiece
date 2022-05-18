@@ -18,7 +18,7 @@
 
   <div class="dropdown">
     <button class="click"> <img src="Hamburger.png" height="40" width="40" /> </button>
-    <div class="games">
+    <div class="list">
       <button class="links"> game 1</button>
       <button class="links"> game 2</button>
       <button class="links"> game 3</button>
@@ -53,13 +53,15 @@
 
 
 
-  <script>
-    let click = document.querySelector('click');
-    let games = document.querySelector('.games');
+  <script>  
+    let click = document.querySelector('.click');
+    let list = document.querySelector('.list');
     click.addEventListener("click", () => {
-
-      games.classGames.toggle('newgames');
+      list.classList.toggle('newlist');
     });
+
+
+
 
   </script>
 
