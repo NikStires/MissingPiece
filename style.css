@@ -24,23 +24,27 @@ a:visited {
 .dropdown {
   float: left;
   position: sticky;
+  width: 100%;
 }
 
 .click, .links {
   padding: 12px;
+}
 
+.links:hover{
+  background-color: gray;
 }
 
 .list {
   position: absolute;
-  transform: scaleY(0);
+  transform: scaleX(0);
   transform-origin: top;
-  transition: 0.3s;
-
+  transition: 0.5s;
+  background-color: lightgrey;
 }
 
 .newlist {
-  transform: scaleY(1);
+  transform: scaleX(1);
 }
 
 .logo {
