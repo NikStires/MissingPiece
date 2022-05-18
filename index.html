@@ -6,11 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Missing Piece Games</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <nav>
     <div class="dropdown">
-      <button class="click"><img src="Hamburger.png" /></button>
+      <button class="hamburger"><img src="Hamburger.png" /></button>
       <ul class="list">
         <li class="links">Math</li>
         <li class="links">Sudoku</li>
@@ -49,7 +55,7 @@
     </footer>
 
     <script>
-      let click = document.querySelector('.click');
+      let click = document.querySelector('.hamburger');
       let list = document.querySelector('.list');
       click.addEventListener('click', () => {
         list.classList.toggle('newlist');
