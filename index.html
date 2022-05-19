@@ -17,11 +17,35 @@
   <nav>
     <div class="dropdown">
       <button class="hamburger"><img src="Hamburger.png" /></button>
-      <ul class="list">
-        <li class="links">Math</li>
-        <li class="links">Sudoku</li>
-        <li class="links">Tic-Tac-Toe</li>
-        <li class="links">Crossword Puzzle</li>
+      <ul class="nav-games">
+        <div class="nav-game">
+          <img src="Math Game.png" alt="Math Game" />
+          <div class="nav-text">
+            <li class="links">Math</li>
+            <p>Exercise your basic math skills</p>
+          </div>
+        </div>
+        <div class="nav-game">
+          <img src="Sudoku.png" alt="Math Game" />
+          <div class="nav-text">
+            <li class="links">Sudoku</li>
+            <p>Challenge your mind</p>
+          </div>
+        </div>
+        <div class="nav-game">
+          <img src="TicTacToe.png" alt="Math Game" />
+          <div class="nav-text">
+            <li class="links">Tic-Tac-Toe</li>
+            <p>Have some fun with X's and O's</p>
+          </div>
+        </div>
+        <div class="nav-game">
+          <img src="crossword.png" alt="Math Game" />
+          <div class="nav-text">
+            <li class="links">Crossword Puzzle</li>
+            <p>Expand your vocabulary with this puzzle</p>
+          </div>
+        </div>
       </ul>
     </div>
   </nav>
@@ -56,9 +80,9 @@
 
     <script>
       let click = document.querySelector('.hamburger');
-      let list = document.querySelector('.list');
+      let list = document.querySelector('.nav-games');
       click.addEventListener('click', () => {
-        list.classList.toggle('newlist');
+        list.classList.toggle('nav-anim');
       });
     </script>
   </body>

@@ -4,6 +4,14 @@
   margin: 0;
 }
 
+p {
+  font-size: 12px;
+  text-align: left;
+  /* 
+  margin-left: 50px;
+  margin-right: 50px; */
+}
+
 /*navigation*/
 nav {
   width: 100vw;
@@ -24,6 +32,7 @@ a:visited {
 .hamburger {
   border: none;
   background: white;
+  padding: 12px;
 }
 
 .hamburger:hover {
@@ -36,7 +45,7 @@ a:visited {
   width: 100vw;
 }
 
-.list {
+.nav-games {
   position: absolute;
   width: 100vw;
   height: 100vh;
@@ -46,8 +55,23 @@ a:visited {
   background-color: white;
 }
 
-.newlist {
+.nav-game {
+  display: flex;
+  align-items: center;
+}
+
+.nav-game img {
+  height: 10vh;
+}
+
+.nav-anim {
   transform: scaleX(1);
+}
+
+.nav-text {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
 }
 
 .links {
@@ -55,12 +79,7 @@ a:visited {
   font-family: 'Roboto', sans-serif;
   font-family: 'Space Mono', monospace;
   color: rgba(95, 242, 27, 1);
-  font-size: 5rem;
-}
-
-.hamburger,
-.links {
-  padding: 12px;
+  font-size: 3rem;
 }
 
 .links:hover {
@@ -121,14 +140,6 @@ title {
   background-color: lightgray;
 }
 
-p {
-  font-size: 12px;
-  text-align: left;
-
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
 footer {
   bottom: 0;
   text-align: center;
@@ -182,7 +193,14 @@ footer {
 
 /* media queries */
 @media only screen and (min-width: 992px) {
-  .list {
+  p {
+    font-size: 17px;
+    text-align: left;
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+
+  .nav-games {
     width: 30vw;
   }
 
@@ -214,12 +232,5 @@ footer {
   .game img {
     width: 100%;
     background-color: lightgray;
-  }
-
-  p {
-    font-size: 17px;
-    text-align: left;
-    margin-left: 250px;
-    margin-right: 250px;
   }
 }
