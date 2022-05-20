@@ -4,10 +4,16 @@
   margin: 0;
 }
 
+/* text styles */
+
 p {
   font-size: 12px;
   text-align: left;
+  color: white;
+}
 
+h1 {
+  color:rgba(95, 242, 27, 1);
 }
 
 /*navigation*/
@@ -19,12 +25,12 @@ nav {
 
 a:link {
   text-decoration: none;
-  color: grey;
+  color:rgba(95, 242, 27, 1);
 }
 
 a:visited {
   text-decoration: none;
-  color: grey;
+  color: rgba(95, 242, 27, 1);
 }
 
 .hamburger {
@@ -151,7 +157,7 @@ footer {
 }
 
 #game-box {
-  background-color: lightgray;
+  background-color: gray;
 }
 
 #game-box h1 {
