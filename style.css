@@ -156,12 +156,16 @@ footer {
   margin: 0 10vw 0 10vw;
 }
 
-#game-box {
+.game-box {
   background-color: gray;
 }
 
-#game-box h1 {
+.game-box h1 {
   text-align: center;
+}
+
+.game-box img {
+  width: 100%;
 }
 
 
@@ -223,17 +227,20 @@ footer {
     justify-content: space-between;
   }
 
-  .how-to-play{
-    margin: 0 5vw 0 5vw;
+  .game-box{
+    width: 50vw;
+    margin: 0 2vw 0 19vw;
   }
+
+  .how-to-play{
+    width: 20vw;
+  }
+
 
   .aboutText {
     margin-left: 250px;
     margin-right: 250px;
   }
-
-
-
 
 
 
