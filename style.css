@@ -184,7 +184,7 @@ footer {
   font-size: 10px;
 }
 
-
+/* About Page */
 .aboutText {
   margin-left: 50px;
   margin-right: 50px;
@@ -230,7 +230,8 @@ footer {
     width: 100%;
     background-color: lightgray;
   }
-  .aboutText{
+
+  .aboutText {
     margin-left: 250px;
     margin-right: 250px;
   }
@@ -241,4 +242,3 @@ footer {
 
 
 }
-
