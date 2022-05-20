@@ -7,7 +7,7 @@
 p {
   font-size: 12px;
   text-align: left;
-
+  color: white;
 }
 
 /*navigation*/
@@ -19,12 +19,12 @@ nav {
 
 a:link {
   text-decoration: none;
-  color: grey;
+  color: rgba(95, 242, 27, 1);
 }
 
 a:visited {
   text-decoration: none;
-  color: grey;
+  color: rgba(95, 242, 27, 1);
 }
 
 .hamburger {
@@ -138,7 +138,7 @@ title {
 footer {
   bottom: 0;
   text-align: center;
-  color: grey;
+  color: white;
   text-decoration: none;
 }
 
@@ -166,6 +166,7 @@ footer {
 .aboutText {
   margin-left: 50px;
   margin-right: 50px;
+  color: white;
 }
 
 /* media queries */
