@@ -29,12 +29,12 @@ a:visited {
 
 .hamburger {
   border: none;
-  background: white;
+  background: #3F4045;
   padding: 12px;
 }
 
 .hamburger:hover {
-  background: lightgray;
+  background: gray;
 }
 
 .dropdown {
@@ -51,7 +51,7 @@ a:visited {
   transform: scaleX(0);
   transform-origin: left;
   transition: 0.5s;
-  background-color: white;
+  background-color: #3F4045;
 }
 
 .nav-game {
@@ -60,7 +60,7 @@ a:visited {
 }
 
 .nav-game:hover {
-  background-color: lightgray;
+  background-color: gray;
   cursor: pointer;
 }
 
@@ -74,6 +74,7 @@ a:visited {
 
 .nav-text {
   padding: 12px;
+  color: white;
 }
 
 .links {
@@ -98,6 +99,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  background: #3F4045;
 }
 
 title {
@@ -123,14 +125,14 @@ title {
   text-decoration: none;
   width: 100%;
   font-size: 25px;
-  color: black;
+  color: rgba(95, 242, 27, 1);
   font-weight: bold;
-  background: gray;
+  background: black;
 }
 
 .game img {
   width: 100%;
-  background-color: lightgray;
+  background-color: black;
 }
 
 footer {
@@ -154,10 +156,6 @@ footer {
 .game-screen {
   width: 100%;
   height: 100%;
-}
-
-.game-screen img {
-  
 }
 
  #how-to-play {
