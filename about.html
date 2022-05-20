@@ -1,79 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Missing Piece Games</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-
-
-
-<nav>
+  <nav>
     <div class="dropdown">
-        <button class="click"> <img src="Hamburger.png" height="40" width="40" /> </button>
-        <div class="list">
-            <button class="links"> game 1</button>
-            <button class="links"> game 2</button>
-            <button class="links"> game 3</button>
-            <button class="links"> game 4</button>
+      <button class="hamburger"><img src="Hamburger.png" /></button>
+      <ul class="nav-games">
+        <div class="nav-game">
+          <img src="Math Game.png" alt="Math Game" />
+          <div class="nav-text">
+            <li class="links">Math</li>
+            <p>Exercise your basic math skills</p>
+          </div>
         </div>
+        <div class="nav-game">
+          <img src="Sudoku.png" alt="Math Game" />
+          <div class="nav-text">
+            <li class="links">Sudoku</li>
+            <p>Challenge your mind</p>
+          </div>
+        </div>
+        <div class="nav-game">
+          <img src="TicTacToe.png" alt="Math Game" />
+          <div class="nav-text">
+            <li class="links">Tic-Tac-Toe</li>
+            <p>Have some fun with X's and O's</p>
+          </div>
+        </div>
+        <div class="nav-game">
+          <img src="crossword.png" alt="Math Game" />
+          <div class="nav-text">
+            <li class="links">Crossword</li>
+            <p>Expand your vocabulary with this puzzle</p>
+          </div>
+        </div>
+      </ul>
     </div>
+  </nav>
 
-</nav>
-
-<body>
+  <body>
     <a href="index.html">
-        <img id="logo" src="Logo.png" alt="missing piece" />
+      <img id="logo" src="Logo.png" alt="missing piece" />
     </a>
     <p>
-        Missing Piece is a class group project created by Nik Stires, Connor Mackenzie, and Darren Jonany. Our goal was
-        and is to create a sleek site where you can play a few simple puzzle games. We wanted to create the opposite of
-        what game sites we remembered, like CoolMathGames, were. The New York Times game page is a good example of the
-        kind of style that we were trying to achieve with this site. While we definitely will not end up with a
-        completely finished product with a diverse cast of games to pick from, we hope that this site meets our initial
-        goals of simplicity and ease of use.
-        <br> <br>
-        If you would like to report a bug or provide feedback for the site, you can email us here: example@fillin.com or
-        join our discord here: <a href="https://discord.gg/9JTGPC24">https://discord.gg/9JTGPC24 </a>
-
-
+      Missing Piece is a class group project created by Nik Stires, Connor
+      Mackenzie, and Darren Jonany. Our goal was and is to create a sleek site
+      where you can play a few simple puzzle games. We wanted to create the
+      opposite of what game sites we remembered, like CoolMathGames, were. The
+      New York Times game page is a good example of the kind of style that we
+      were trying to achieve with this site. While we definitely will not end up
+      with a completely finished product with a diverse cast of games to pick
+      from, we hope that this site meets our initial goals of simplicity and
+      ease of use.
+      <br />
+      <br />
+      If you would like to report a bug or provide feedback for the site, you
+      can email us here: example@fillin.com or join our discord here:
+      <a href="https://discord.gg/9JTGPC24">https://discord.gg/9JTGPC24 </a>
     </p>
 
-
     <footer>
-        <a href="about.html"> About Us </a>
-        <br>
-        <a href="https://discord.gg/9JTGPC24"> Discord </a>
-
-
-
-
+      <a href="about.html"> About Us </a>
+      <br />
+      <a href="https://discord.gg/9JTGPC24"> Discord </a>
     </footer>
 
-
-
     <script>
-        let click = document.querySelector('.click');
-        let list = document.querySelector('.list');
-        click.addEventListener("click", () => {
-            list.classList.toggle('newlist');
-        });
-
-
-
-
+      let click = document.querySelector('.hamburger');
+      let list = document.querySelector('.nav-games');
+      click.addEventListener('click', () => {
+        list.classList.toggle('nav-anim');
+      });
     </script>
-
-
-
-
-
-
-
-</body>
-
+  </body>
 </html>
