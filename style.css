@@ -142,19 +142,10 @@ footer {
 }
 
 /* Game Page */
-.game-page {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  margin-left: 300px;
-  margin-right: 100px;
-}
 
 #game-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   background-color: lightgray;
+
 }
 
 #game-box h1 {
@@ -163,26 +154,15 @@ footer {
 
 .game-screen {
   width: 100%;
+  height: 100%;
 }
 
 .game-screen img {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  
 }
 
-.how-to-play {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 30%;
-}
-
-.how-to-play p {
-  width: 50%;
-  margin-left: 1px;
-  font-size: 10px;
+ #how-to-play {
+  margin: 0 10vw 0 10vw;
 }
 
 /* media queries */
