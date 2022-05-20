@@ -7,9 +7,7 @@
 p {
   font-size: 12px;
   text-align: left;
-  /* 
-  margin-left: 50px;
-  margin-right: 50px; */
+
 }
 
 /*navigation*/
@@ -42,6 +40,7 @@ a:visited {
 .dropdown {
   float: left;
   position: sticky;
+  top: 0;
   width: 100vw;
 }
 
@@ -165,6 +164,12 @@ footer {
   margin: 0 10vw 0 10vw;
 }
 
+/* About Page */
+.aboutText {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 /* media queries */
 @media only screen and (min-width: 992px) {
   p {
@@ -205,4 +210,15 @@ footer {
     width: 100%;
     background-color: lightgray;
   }
+
+  .aboutText {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+
+
+
+
+
+
 }
