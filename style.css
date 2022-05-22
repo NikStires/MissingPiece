@@ -14,8 +14,8 @@ li:hover {
 
 p {
   font-size: 1.5rem;
-  text-align: left;
   color: white;
+  text-align: center;
 }
 
 h1 {
@@ -88,6 +88,10 @@ a:visited {
 .nav-text {
   padding: 12px;
   color: white;
+}
+
+.nav-text p {
+  text-align: left;
 }
 
 .links {
@@ -231,10 +235,6 @@ footer {
 
 /* media queries */
 @media only screen and (min-width: 992px) {
-  p {
-    text-align: left;
-  }
-
   .nav-games {
     width: 30vw;
   }
