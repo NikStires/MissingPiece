@@ -7,7 +7,7 @@
 /* text styles */
 
 p {
-  font-size: 12px;
+  font-size: 1.5rem;
   text-align: left;
   color: white;
 }
@@ -178,9 +178,7 @@ footer {
 
 /* About Page */
 .aboutText {
-  margin-left: 50px;
-  margin-right: 50px;
-  color: white;
+  width: 80vw;
 }
 
 /* Math Game */
@@ -221,7 +219,7 @@ footer {
 /* media queries */
 @media only screen and (min-width: 992px) {
   p {
-    font-size: 17px;
+    font-size: 2rem;
     text-align: left;
   }
 
@@ -270,10 +268,5 @@ footer {
 
   .how-to-play {
     width: 20vw;
-  }
-
-  .aboutText {
-    margin-left: 250px;
-    margin-right: 250px;
   }
 }
