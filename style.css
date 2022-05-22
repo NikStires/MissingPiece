@@ -159,6 +159,10 @@ footer {
 .game-box {
   background-color: gray;
   min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .game-box h1 {
@@ -181,8 +185,27 @@ footer {
 }
 
 /* Math Game */
+
+#start-button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#start-button:hover {
+  background-color: rgba(95, 242, 27, 1);
+}
+
 #math-problem {
   font-size: 3rem;
+  color: rgba(95, 242, 27, 1);
 }
 
 #answer {

@@ -88,3 +88,10 @@ answerInput.addEventListener('keypress', function (event) {
     answerInput.value = '';
   }
 });
+
+//nav script
+let click = document.querySelector('.hamburger');
+let list = document.querySelector('.nav-games');
+click.addEventListener('click', () => {
+  list.classList.toggle('nav-anim');
+});
