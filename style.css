@@ -157,7 +157,6 @@ footer {
 }
 
 .game-box {
-  background-color: gray;
   min-height: 50vh;
   display: flex;
   flex-direction: column;
