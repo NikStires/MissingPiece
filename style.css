@@ -251,13 +251,11 @@ footer {
   }
 
   .game h1 {
-    background-color: gray;
     width: 100%;
   }
 
   .game img {
     width: 100%;
-    background-color: lightgray;
   }
 
   /* game page */
