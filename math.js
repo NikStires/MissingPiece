@@ -52,10 +52,18 @@ function CheckAnswer(answer) {
     score--;
   }
 
-  //ask a new question
+  //if game hasnt ended ask a new question
   if (count != 5) {
     AskQuestion();
+    //reset and display score
   } else {
+    //remove game displays
+    answerInput.style.display = 'none';
+    displayQuestion.style.display = 'none';
+    startButton.style.display = 'block';
+    //show play again button
+    startButton.innerHTML = 'Play Again!';
+    //display score green if positive red if negative
     scoreDisplay.innerHTML = 'You got ' + score + ' points';
     score >= 1
       ? (scoreDisplay.style.color = 'green')
@@ -65,6 +73,11 @@ function CheckAnswer(answer) {
 
 startButton.addEventListener('click', function (event) {
   event.preventDefault();
+  //reset game
+  displayQuestion.style.display = 'block';
+  answerInput.style.display = 'block';
+  score = 0;
+  count = 0;
   AskQuestion();
   startButton.style.display = 'none';
 });

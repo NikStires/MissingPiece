@@ -158,6 +158,7 @@ footer {
 
 .game-box {
   background-color: gray;
+  min-height: 50vh;
 }
 
 .game-box h1 {
@@ -177,6 +178,22 @@ footer {
   margin-left: 50px;
   margin-right: 50px;
   color: white;
+}
+
+/* Math Game */
+#math-problem {
+  font-size: 3rem;
+}
+
+#answer {
+  width: 80%;
+  height: 10vh;
+  font-size: 3rem;
+}
+
+#score {
+  background: none;
+  font-size: 3rem;
 }
 
 /* media queries */
