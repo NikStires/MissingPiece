@@ -16,7 +16,7 @@ function AskQuestion() {
   //get first number
   num1 = Math.floor(Math.random() * 10);
   //get second number
-  num2 = Math.floor(Math.random() * 10);
+  num2 = Math.floor(Math.random() * 10) + 1;
   //get random operation
   operation = operations[Math.floor(Math.random() * operations.length)];
   //display question
@@ -45,11 +45,11 @@ function CheckAnswer(answer) {
   if (answer == realAnswer) {
     scoreDisplay.innerHTML = 'Correct!';
     scoreDisplay.style.color = 'green';
-    score++;
+    score += 10;
   } else {
     scoreDisplay.innerHTML = 'Incorrect :(';
     scoreDisplay.style.color = 'red';
-    score--;
+    score -= 10;
   }
 
   //if game hasnt ended ask a new question
