@@ -43,6 +43,7 @@ a:visited {
   border: none;
   background: #3f4045;
   padding: 12px;
+  cursor: pointer;
 }
 
 .hamburger:hover {
