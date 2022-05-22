@@ -4,6 +4,12 @@
   margin: 0;
 }
 
+a:hover,
+li:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.05);
+}
+
 /* text styles */
 
 p {
