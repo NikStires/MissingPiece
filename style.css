@@ -284,6 +284,7 @@ footer {
 
   .game-box {
     width: 60vw;
+    justify-content: space-between;
   }
 
   .game-box img{
