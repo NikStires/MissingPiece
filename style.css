@@ -279,7 +279,6 @@ footer {
   /* game page */
   .game-page {
     flex-direction: row;
-    justify-content: space-between;
   }
 
   .game-box {
