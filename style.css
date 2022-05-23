@@ -117,6 +117,7 @@ body {
   align-items: center;
   justify-content: space-between;
   background: #3f4045;
+  overflow-x: hidden;
 }
 
 title {
