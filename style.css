@@ -173,18 +173,29 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  /* margin: 5vw 10vw 0 10vw; */
 }
 
 .game-box h1 {
   text-align: center;
+  background-color: gray;
 }
 
 .game-box img {
   width: 100%;
+  background-color: gray;
 }
 
-.how-to-play {
+.how-to-play{
   text-align: center;
+  margin: 5vw 0 0 0;
+  width: 80vw;
+  
+}
+
+.how-to-play p{
+  margin: 2vw 0 5vw 0;
+  text-align: justify;
 }
 
 /* About Page */
@@ -275,7 +286,7 @@ footer {
 
   .game-box {
     width: 55vw;
-    margin: 0 2vw 0 22vw;
+    margin: 0 2vw 2vw 20vw;
   }
 
   .how-to-play {
