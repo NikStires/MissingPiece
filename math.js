@@ -1,3 +1,4 @@
+//initate vars
 let operations = ['+', '-', '*', '/'];
 let realAnswer = 0;
 let score = 0;
@@ -6,6 +7,7 @@ let num1 = 0;
 let num2 = 0;
 let operation = '';
 
+//grab DOM elements
 let inputForm = document.getElementById('math-form');
 let startButton = document.getElementById('start-button');
 let displayQuestion = document.getElementById('math-problem');
