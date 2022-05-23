@@ -70,6 +70,13 @@ a:visited {
 .nav-game {
   display: flex;
   align-items: center;
+
+}
+
+#border-line{
+  width: 80%;
+  margin: 3vw 0 3vw 8vw;
+  border-bottom: 5px solid black;
 }
 
 .nav-game:hover {
@@ -173,7 +180,6 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  /* margin: 5vw 10vw 0 10vw; */
 }
 
 .game-box h1 {
@@ -251,6 +257,12 @@ footer {
     width: 30vw;
   }
 
+  #border-line{
+    width: 90%;
+    margin-left: 1vw;
+    border-bottom: 5px solid black;
+  }
+
   .links {
     font-size: 3rem;
   }
@@ -287,7 +299,7 @@ footer {
 
   .game-box {
     width: 50vw;
-    margin: 0 2vw 25vw 23vw;
+    margin: 5vw 2vw 25vw 23vw;
   }
 
   .how-to-play {
