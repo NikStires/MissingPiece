@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Missing Piece | About</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
-    <link rel="manifest" href="site.webmanifest" />
-  </head>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Missing Piece | About</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+  <link rel="manifest" href="site.webmanifest" />
+</head>
+
+
+
+<body>
 
   <nav>
     <div class="dropdown">
-      <button class="hamburger"><img src="Hamburger.png" /></button>
+      <button class="hamburger"><img src="Hamburger.png" alt = "Logo" /></button>
       <ul class="nav-games">
         <a href="mathgame.html">
           <div class="nav-game">
@@ -56,42 +61,43 @@
     </div>
   </nav>
 
-  <body>
-    <a href="index.html">
-      <img id="logo" src="Logo.png" alt="missing piece" />
-    </a>
 
-    <div class="aboutText">
-      <p>
-        Missing Piece is a class group project created by Nik Stires, Connor
-        Mackenzie, and Darren Jonany. Our goal was and is to create a sleek site
-        where you can play a few simple puzzle games. We wanted to create the
-        opposite of what game sites we remembered, like CoolMathGames, were. The
-        New York Times game page is a good example of the kind of style that we
-        were trying to achieve with this site. While we definitely will not end
-        up with a completely finished product with a diverse cast of games to
-        pick from, we hope that this site meets our initial goals of simplicity
-        and ease of use.
-        <br />
-        <br />
-        If you would like to report a bug or provide feedback for the site, you
-        can email us here: example@fillin.com or join our discord here:
-        <a href="https://discord.gg/9JTGPC24">https://discord.gg/9JTGPC24 </a>
-      </p>
-    </div>
+  <a href="index.html">
+    <img id="logo" src="Logo.png" alt="missing piece" />
+  </a>
 
-    <footer>
-      <a href="about.html"> About Us </a>
+  <div class="aboutText">
+    <p>
+      Missing Piece is a class group project created by Nik Stires, Connor
+      Mackenzie, and Darren Jonany. Our goal was and is to create a sleek site
+      where you can play a few simple puzzle games. We wanted to create the
+      opposite of what game sites we remembered, like CoolMathGames, were. The
+      New York Times game page is a good example of the kind of style that we
+      were trying to achieve with this site. While we definitely will not end
+      up with a completely finished product with a diverse cast of games to
+      pick from, we hope that this site meets our initial goals of simplicity
+      and ease of use.
       <br />
-      <a href="https://discord.gg/9JTGPC24"> Discord </a>
-    </footer>
+      <br />
+      If you would like to report a bug or provide feedback for the site, you
+      can email us here: example@fillin.com or join our discord here:
+      <a href="https://discord.gg/9JTGPC24">https://discord.gg/9JTGPC24 </a>
+    </p>
+  </div>
 
-    <script>
-      let click = document.querySelector('.hamburger');
-      let list = document.querySelector('.nav-games');
-      click.addEventListener('click', () => {
-        list.classList.toggle('nav-anim');
-      });
-    </script>
-  </body>
+  <footer>
+    <a href="about.html"> About Us </a>
+    <br />
+    <a href="https://discord.gg/9JTGPC24"> Discord </a>
+  </footer>
+
+  <script>
+    let click = document.querySelector('.hamburger');
+    let list = document.querySelector('.nav-games');
+    click.addEventListener('click', () => {
+      list.classList.toggle('nav-anim');
+    });
+  </script>
+</body>
+
 </html>

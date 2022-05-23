@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Missing Piece | Math</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&family=Space+Mono&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
-    <link rel="manifest" href="site.webmanifest" />
-  </head>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Missing Piece | Math</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Space+Mono&display=swap" rel="stylesheet" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+  <link rel="manifest" href="site.webmanifest" />
+</head>
+
+
+
+
+<body>
 
   <nav>
     <div class="dropdown">
-      <button class="hamburger"><img src="Hamburger.png" /></button>
+      <button class="hamburger"><img src="Hamburger.png" alt="Logo" /></button>
       <ul class="nav-games">
         <a href="mathgame.html">
           <div class="nav-game">
@@ -63,45 +66,48 @@
   </nav>
 
 
-  <body>
-    <a href="index.html">
-      <img id="logo" src="Logo.png" alt="missing piece" />
-    </a>
+  <a href="index.html">
+    <img id="logo" src="Logo.png" alt="missing piece" />
+  </a>
 
-    <div class="game-page">
-      <div class="game-box">
-        <h1>Math Game</h1>
-          <form>
-            <button id="start-button">Start</button>
-          </form id="math-form" action="/" method="post">
-          <h2 id="math-problem"></h2>
-          <input id="answer" />
-          <h1 id="score"></h1>
-      </div>
-      <div>
-        <div class="how-to-play">
-          <h1>How To Play</h1>
-          <p>
-            Once the game has started a question will appear, type your answer in and press the ENTER key to see if you were correct! 
-            The more questions you get right the higher your score! Questions include addition, subtraction, multiplication, and division.
-            Fractions are not accepted as answers, please round your answers to the first decimal place.
-          </p>
-          
-          <h1>History</h1>
-          <p>
-            The earliest evidence of written mathematics dates back to the ancient Sumerians, who built the earliest civilization in Mesopotamia. They developed a complex system of metrology from 3000 BC.
-          </p>
-        </div>
+  <div class="game-page">
+    <div class="game-box">
+      <h1>Math Game</h1>
+      <form id="math-form" action="/" method="post">
+        <button id="start-button">Start</button>
+      </form>
+      <h2 id="math-problem"></h2>
+      <input id="answer" />
+      <h1 id="score"></h1>
+    </div>
+    <div>
+      <div class="how-to-play">
+        <h1>How To Play</h1>
+        <p>
+          Once the game has started a question will appear, type your answer in and press the ENTER key to see if you
+          were correct!
+          The more questions you get right the higher your score! Questions include addition, subtraction,
+          multiplication, and division.
+          Fractions are not accepted as answers, please round your answers to the first decimal place.
+        </p>
+
+        <h1>History</h1>
+        <p>
+          The earliest evidence of written mathematics dates back to the ancient Sumerians, who built the earliest
+          civilization in Mesopotamia. They developed a complex system of metrology from 3000 BC.
+        </p>
       </div>
     </div>
+  </div>
 
-    <footer>
-      <a href="about.html"> About Us </a>
-      <br />
-      <a href="https://discord.gg/9JTGPC24"> Discord </a>
-    </footer>
+  <footer>
+    <a href="about.html"> About Us </a>
+    <br />
+    <a href="https://discord.gg/9JTGPC24"> Discord </a>
+  </footer>
 
-    <script src="math.js">
-    </script>
-  </body>
+  <script src="math.js">
+  </script>
+</body>
+
 </html>

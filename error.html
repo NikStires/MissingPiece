@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Missing Piece | Error</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
-    <link rel="manifest" href="site.webmanifest" />
-  </head>
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Missing Piece | Error</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+  <link rel="manifest" href="site.webmanifest" />
+</head>
+
+
+
+<body>
   <nav>
     <div class="dropdown">
-      <button class="hamburger"><img src="Hamburger.png" /></button>
+      <button class="hamburger"><img src="Hamburger.png" alt="logo" /></button>
       <ul class="nav-games">
         <a href="mathgame.html">
           <div class="nav-game">
@@ -56,26 +60,31 @@
     </div>
   </nav>
 
-  <body>
-    <a href="index.html">
-      <img id="logo" src="Logo.png" alt="missing piece" />
-    </a>
 
-    <h1>Error This Page Is Under Construction...</h1>
-    <a href="index.html"><h1>Return Home</h1></a>
 
-    <footer>
-      <a href="about.html"> About Us </a>
-      <br />
-      <a href="https://discord.gg/9JTGPC24"> Discord </a>
-    </footer>
 
-    <script>
-      let click = document.querySelector('.hamburger');
-      let list = document.querySelector('.nav-games');
-      click.addEventListener('click', () => {
-        list.classList.toggle('nav-anim');
-      });
-    </script>
-  </body>
+  <a href="index.html">
+    <img id="logo" src="Logo.png" alt="missing piece" />
+  </a>
+
+  <h1>Error This Page Is Under Construction...</h1>
+  <a href="index.html">
+    <h1>Return Home</h1>
+  </a>
+
+  <footer>
+    <a href="about.html"> About Us </a>
+    <br />
+    <a href="https://discord.gg/9JTGPC24"> Discord </a>
+  </footer>
+
+  <script>
+    let click = document.querySelector('.hamburger');
+    let list = document.querySelector('.nav-games');
+    click.addEventListener('click', () => {
+      list.classList.toggle('nav-anim');
+    });
+  </script>
+</body>
+
 </html>
