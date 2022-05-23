@@ -184,12 +184,10 @@ footer {
 
 .game-box h1 {
   text-align: center;
-  background-color: gray;
 }
 
 .game-box img {
   width: 100%;
-  background-color: gray;
 }
 
 .how-to-play{
@@ -255,12 +253,6 @@ footer {
 @media only screen and (min-width: 992px) {
   .nav-games {
     width: 30vw;
-  }
-
-  #border-line{
-    width: 90%;
-    margin-left: 1vw;
-    border-bottom: 5px solid black;
   }
 
   .links {
